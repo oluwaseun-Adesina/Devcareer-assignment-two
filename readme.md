@@ -22,5 +22,5 @@ To get a local copy up and running follow these simple steps:
 
 Oluwaseun Adesina - oluwaseunadesina8@gmail.com
 
-Project Link: [Live Project](https://devcareer-assignment-one.onrender.com/)
+Project Link: [Live Project](https://oluwaseun-adesina.github.io/Devcareer-assignment-two/)
 
