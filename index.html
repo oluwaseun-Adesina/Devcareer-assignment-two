@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Oluwaseun Adesina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 1rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        .contact-form {
+            margin-top: 2rem;
+        }
+
+        .calculator {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .calculator button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 1rem;
+            margin: 0.5rem;
+            flex-basis: 20%;
+            cursor: pointer;
+        }
+
+        .calculator input[type="text"] {
+            flex-basis: 80%;
+            padding: 1rem;
+            margin: 0.5rem;
+        }
+
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            opacity: 0.8;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Oluwaseun Adesina</h1>
+    </header>
+    <section>
+        <h2>Summary</h2>
+        <p>I'm a software engineer with a passion for Backend development. I enjoy learning new technologies and solving complex
+            problems with creative solutions.</p>
+    </section>
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor's degree in Computer Science</li>
+            <li>Certificates in HTML, CSS, JavaScript, Node Js, Python IT Support and Google Cloud</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Job Experiences</h2>
+        <ul>
+            <li>Software Engineer at Specialman Global Company</li>
+            <li>IT Support at Octosoft</li>
+            <li>IT Support at Covenant University</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Hobby</h2>
+        <p>I enjoy reading and watching movies in my free time.</p>
+    </section>
+    <section>
+        <h2>Other Skills</h2>
+        <ul>
+            <li>Proficient in HTML, CSS, and JavaScript</li>
+            <li>Experience with Node js and Mongodb</li>
+            <li>Strong problem-solving skills</li>
+        </ul>
+    </section>
+    <section class="contact-form">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+            <label for="priority">Priority:</label><br>
+            <select id="priority" name="priority">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <section class="calculator">
+        <input type="text" id="display" name="display" readonly>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>+</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>-</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>*</button>
+        <button>0</button>
+        <button>%</button>
+        <button>/</button>
+        <button>=</button>
+    </section>
+</body>
+
+</html>
