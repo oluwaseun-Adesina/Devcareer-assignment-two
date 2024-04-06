@@ -14,7 +14,7 @@ DevCareer First Assignement is a project to demonstrate the knowledge of HTML.
 To get a local copy up and running follow these simple steps:
 
 1. Clone the repository: `https://github.com/oluwaseun-Adesina/Devcareer-assignment-one.git`
-2. Navigate to the project directory: `cd Devcareer-assignment-one`
+2. Navigate to the project directory: `cd Devcareer-assignment-two`
 3. Open the index.html file with live server
 
 
